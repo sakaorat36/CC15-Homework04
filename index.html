@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        #fullPage {
+            background-image: url("./pic/aurora.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+        }
+
+        nav {
+            text-align: right;
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+            padding-right: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        img {
+            width: 1.5rem;
+        }
+
+        #content {
+            display: flex;
+            text-align: center;
+            font-size: 35px;
+            flex-direction: column;
+        }
+
+        #content>h6 {
+            font-size: 1rem;
+            color: white;
+        }
+
+        #header {
+            color: white;
+            font-weight: bold;
+        }
+
+        #outer {
+            border: 1px solid black;
+            margin: 0% 30%;
+            /* box-shadow: 5px 5px; */
+        }
+
+        #inner {
+            height: 24px;
+            width: 70%;
+            background-color: brown;
+        }
+
+        div>button {
+            margin: 4rem;
+            padding: 0.5rem;
+            border-radius: 7px;
+            background-color: #FF6464;
+            color: white;
+            border: white;
+        }
+
+        #footer {
+            font-size: 15px;
+            position: relative;
+            bottom: -45px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fullPage">
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+        <div id="content">
+            <div id="header">
+                <p>UNDER</p>
+                <p>CONSTRUCTION</p>
+            </div>
+            <h6>SITE NEARLY READY</h6>
+            <div id="outer">
+                <div id="inner"></div>
+            </div>
+            <div>
+                <button>Notify Me!</button>
+            </div>
+            <div style="margin-top: 2rem;">
+                <img src="./pic/facebook.svg" alt="facebook logo">
+                <img src="./pic/instagram.svg" alt="instagram logo">
+                <img src="./pic/twitter.svg" alt="twitter logo">
+                <img src="./pic/linkedin.svg" alt="linkedin logo">
+            </div>
+            <p id="footer">©2023 by Under Construction.</p>
+        </div>
+    </div>
+</body>
+
+</html>
